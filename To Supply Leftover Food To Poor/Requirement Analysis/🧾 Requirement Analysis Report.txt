@@ -1,0 +1,94 @@
+🧾 Requirement Analysis Report
+
+Team Details
+
+Team ID: NM2025TMID06106
+
+Team Size: 4
+
+Team Leader: Ragu M
+
+Team Members:
+
+Moganapriya B
+
+Gokulakrishnan S
+
+Ezhil G
+
+Project Title:
+
+Smart Waste Management System using IoT and Data Analytics
+
+1. Objective of Requirement Analysis
+
+To identify and document the functional, non-functional, and technical requirements of the Smart Waste Management System to ensure clarity and feasibility before implementation.
+
+2. Purpose
+
+This document defines the user needs and system specifications required for designing and developing a smart IoT-based waste management solution that improves efficiency, reduces manual work, and provides real-time monitoring.
+
+3. Functional Requirements
+Requirement ID	Description
+FR1	The system shall collect waste bin fill level data using ultrasonic sensors.
+FR2	The system shall transmit sensor data to the cloud in real-time.
+FR3	The system shall display bin status and alerts on a web dashboard.
+FR4	The system shall generate analytical reports on waste trends.
+FR5	The system shall suggest optimized waste collection routes.
+4. Non-Functional Requirements
+
+The system should handle real-time data efficiently.
+
+The interface should be user-friendly and responsive.
+
+The data should be securely stored and transmitted.
+
+The system should be scalable for multiple cities and bins.
+
+5. Hardware Requirements
+
+NodeMCU (ESP8266) microcontroller
+
+Ultrasonic sensors
+
+Power supply module
+
+Wi-Fi connectivity hardware
+
+6. Software Requirements
+
+Programming Languages: Python, JavaScript
+
+Database: MySQL / Firebase
+
+Frameworks: Flask / Django, React
+
+Cloud Platform: AWS / ThingSpeak
+
+Tools: GitHub, VS Code, Power BI
+
+7. User Requirements
+
+Admin: Monitor all bins, view analytics, and manage routes.
+
+Field Staff: Receive alerts and collection routes.
+
+Citizen (Future Scope): View nearby bin status and report overflow.
+
+8. System Requirements
+
+The system should integrate IoT devices, cloud storage, and web dashboards seamlessly.
+It should support multi-user roles and data visualization for decision-making.
+
+9. Constraints
+
+Limited sensor range accuracy.
+
+Internet dependency for real-time data transfer.
+
+Power supply stability for IoT nodes.
+
+10. Conclusion
+
+The Requirement Analysis Phase defines a clear roadmap for the development process.
+It ensures that the Smart Waste Management System meets technical feasibility, fulfills user expectations, and delivers an efficient, scalable, and sustainable solution.

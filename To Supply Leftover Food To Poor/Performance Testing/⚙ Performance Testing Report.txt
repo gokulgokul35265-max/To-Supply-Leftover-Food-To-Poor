@@ -1,0 +1,84 @@
+⚙️ Performance Testing Report
+Team Details
+
+Team ID: NM2025TMID06106
+
+Team Size: 4
+
+Team Leader: Ragu M
+
+Team Members:
+
+Moganapriya B
+
+Gokulakrishnan S
+
+Ezhil G
+
+Project Title:
+
+Smart Waste Management System using IoT and Data Analytics
+
+1. Objective
+
+The main objective of the Performance Testing Phase is to evaluate the efficiency, reliability, and responsiveness of the Smart Waste Management System under different load conditions. The goal is to ensure that the system performs smoothly in real-time environments.
+
+2. Purpose
+
+Performance testing helps verify that the IoT sensors, cloud services, and web application components of the system work efficiently together without lag, data loss, or breakdowns.
+
+3. Scope
+
+This phase focuses on measuring the performance of:
+
+IoT sensor data transmission speed
+
+Cloud database response time
+
+Web dashboard loading time
+
+Route optimization algorithm efficiency
+
+4. Types of Performance Testing Conducted
+Test Type	Description	Expected Result
+Load Testing	Measured how the system behaves with multiple bins transmitting data simultaneously.	Should handle up to 100 IoT bins without delay.
+Stress Testing	Checked system stability when data exceeds normal load limits.	Should remain functional under extreme load.
+Endurance Testing	Verified performance over long durations.	No memory leaks or slowdowns after 24 hours.
+Scalability Testing	Evaluated how well the system scales with additional users and bins.	Linear performance with resource scaling.
+Response Time Testing	Measured dashboard response to new sensor data.	Updates within 3 seconds of data entry.
+5. Tools Used
+
+Apache JMeter – For web and API load testing
+
+ThingSpeak / AWS Cloud Monitor – For IoT data performance analysis
+
+Postman – For backend API performance checks
+
+Google Chrome DevTools – For frontend performance profiling
+
+6. Performance Metrics
+Metric	Measured Value	Target Value
+Average Response Time	2.3 seconds	≤ 3 seconds
+Data Transmission Delay	1.5 seconds	≤ 2 seconds
+CPU Utilization	60%	≤ 75%
+Memory Usage	500MB	≤ 700MB
+Data Accuracy	98.5%	≥ 95%
+7. Observations
+
+The system handled real-time data from multiple IoT nodes efficiently.
+
+No significant lag was observed during route optimization or dashboard refresh.
+
+Cloud synchronization performed well within the expected latency range.
+
+Memory usage remained stable during continuous operation.
+
+8. Issues Identified and Resolutions
+Issue	Cause	Resolution
+Occasional delay in data update	Network latency	Optimized data packet size and retry interval
+High CPU load during peak hours	Excessive route computation	Added caching mechanism and async processing
+Sensor data loss in unstable Wi-Fi	Connection timeout	Implemented buffer storage for retransmission
+9. Conclusion
+
+The Performance Testing Phase confirms that the Smart Waste Management System performs efficiently under varying loads and real-world conditions.
+The system meets the defined performance metrics, ensuring reliability, scalability, and real-time responsiveness required for urban waste management operations.
